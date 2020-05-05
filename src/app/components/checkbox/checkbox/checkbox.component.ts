@@ -27,7 +27,6 @@ export class CheckboxComponent implements ControlValueAccessor {
   };
 
   writeValue(obj: any): void {
-    console.log(this.config)
     if(obj != null && obj != undefined) {
       this.checked = obj
       //this.change(this.checked);

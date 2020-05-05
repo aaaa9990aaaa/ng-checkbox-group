@@ -16,19 +16,19 @@ export class AppComponent implements OnInit{
     //align: CheckboxAlignType.row,
     list:[{
       type: CheckboxType.primary,
-      circle:true,
       label: 'primary',
       value: 1
     },{
       type: CheckboxType.info,
+      circle:true,
       label: 'info',
       value: 2
     },{
-      circle:true,
       type: CheckboxType.warning,
       label: 'warning',
       value: 3
     },{
+      circle:true,
       type: CheckboxType.danger,
       label: 'danger',
       value: 3

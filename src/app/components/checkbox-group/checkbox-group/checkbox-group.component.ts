@@ -26,7 +26,6 @@ export class CheckboxGroupComponent implements ControlValueAccessor {
   change = (val:any)=>{}
 
   writeValue(obj: any): void {
-    console.log(this.config)
     if(obj) {
       this.checkedList = obj
     }
