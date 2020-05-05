@@ -1,0 +1,5 @@
+<ng-container *ngFor="let item of config.list;let i = index">
+  <div [class]="config.align||'row'">
+    <app-checkbox [config]="item" [(ngModel)]="checkedList[i]" (ngModelChange)="change(checkedList)"></app-checkbox>
+  </div>
+</ng-container>
